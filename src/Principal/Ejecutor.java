@@ -1,4 +1,4 @@
-package sample;
+package Principal;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -6,12 +6,12 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class Main extends Application {
+public class Ejecutor extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        primaryStage.setTitle("Hello World");
+        Parent root = FXMLLoader.load(getClass().getResource("principal.fxml"));
+        primaryStage.setTitle("InterpretaME");
         primaryStage.setScene(new Scene(root, 300, 275));
         primaryStage.show();
     }
