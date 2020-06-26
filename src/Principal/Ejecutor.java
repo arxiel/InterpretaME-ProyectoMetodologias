@@ -11,14 +11,13 @@ public class Ejecutor extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("principal.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("Vista.fxml"));
         primaryStage.setTitle("InterpretaME");
         primaryStage.getIcons().add(new Image("img/logo.png"));
         primaryStage.setScene(new Scene(root, 800, 600));
+        primaryStage.setResizable(false);
         primaryStage.show();
     }
-
-
     public static void main(String[] args) {
         launch(args);
     }
