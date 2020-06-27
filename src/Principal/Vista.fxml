@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.jfoenix.controls.JFXButton?>
 <?import com.jfoenix.controls.JFXTextField?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.TitledPane?>
@@ -27,7 +28,44 @@
             </JFXTextField>
             <TitledPane fx:id="simbolosTP" animated="false" layoutX="14.0" layoutY="72.0" opacity="0.87" prefHeight="172.0" prefWidth="202.0" text="Símbolos">
               <content>
-                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="63.0" prefWidth="200.0" />
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="63.0" prefWidth="200.0" style="-fx-background-color: #5B9AFF;">
+                     <children>
+                        <JFXButton layoutX="14.0" layoutY="14.0" prefHeight="27.0" prefWidth="35.0" style="-fx-background-color: #3C77BA;" text="»">
+                           <font>
+                              <Font name="Verdana" size="14.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton layoutX="59.0" layoutY="14.0" prefHeight="27.0" prefWidth="35.0" style="-fx-background-color: #3C77BA;" text="«">
+                           <font>
+                              <Font name="Verdana" size="14.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton layoutX="107.0" layoutY="14.0" prefHeight="27.0" prefWidth="35.0" style="-fx-background-color: #3C77BA;" text="&quot;">
+                           <font>
+                              <Font name="Verdana" size="14.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton layoutX="151.0" layoutY="14.0" prefHeight="27.0" prefWidth="35.0" style="-fx-background-color: #3C77BA;" text="&quot;">
+                           <font>
+                              <Font name="Verdana" size="14.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton layoutX="14.0" layoutY="55.0" prefHeight="27.0" prefWidth="35.0" style="-fx-background-color: #3C77BA;" text="'">
+                           <font>
+                              <Font name="Verdana" size="14.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton layoutX="59.0" layoutY="55.0" prefHeight="27.0" prefWidth="35.0" style="-fx-background-color: #3C77BA;" text="'">
+                           <font>
+                              <Font name="Verdana" size="14.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton layoutX="107.0" layoutY="55.0" prefHeight="27.0" prefWidth="35.0" style="-fx-background-color: #3C77BA;" text="...">
+                           <font>
+                              <Font name="Verdana" size="14.0" />
+                           </font>
+                        </JFXButton>
+                     </children></AnchorPane>
               </content>
                <font>
                   <Font name="Serif Regular" size="14.0" />
@@ -35,7 +73,7 @@
             </TitledPane>
             <TitledPane fx:id="opcionesTP" animated="false" layoutX="14.0" layoutY="309.0" opacity="0.87" prefHeight="238.0" prefWidth="202.0" text="Opciones">
                <content>
-                  <AnchorPane minHeight="0.0" minWidth="0.0" opacity="0.87" prefHeight="180.0" prefWidth="200.0" />
+                  <AnchorPane minHeight="0.0" minWidth="0.0" opacity="0.87" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #5B9AFF;" />
                </content>
                <font>
                   <Font name="Serif Regular" size="14.0" />
